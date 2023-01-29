@@ -32,13 +32,14 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 48px;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .header-logo {
@@ -62,8 +63,7 @@ a {
     /* align-items: center; */
     
     width: 100%;
-    gap: 48px;
-    padding: 96px 8px;
+    padding: 96px 0px;
 }
 
 .hero-image,
@@ -72,11 +72,13 @@ a {
 
 }
 
-
+.hero-content {
+    padding-right: 48px;
+}
 
 .hero-image img {
     width: 100%;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
 }
 
