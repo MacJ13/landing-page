@@ -75,8 +75,15 @@ a {
 .hero-content {
     padding-right: 48px;
 }
+.hero-image {
+
+    border-radius: 8px;
+    overflow: hidden;
+    /* border: 2px solid #3882F6; */
+}
 
 .hero-image img {
+    display: block;
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -118,13 +125,10 @@ a {
 
 .information-cards {
     display: flex;
-
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 48px;
+    justify-content: space-around;
     max-width: 900px;
     margin: 0 auto;
-
 }
 
 .information-card {
