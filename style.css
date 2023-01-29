@@ -24,3 +24,34 @@ ul {
 a {
     text-decoration: none;
 }
+
+.header {
+    background-color: #1F2937;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-list {
+    display: flex;
+    gap: 16px;
+}
+
+.header-list a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
